@@ -1,0 +1,3 @@
+/home/domus/Dokumenty/Projekt_AAL/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/domus/Dokumenty/Projekt_AAL/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/domus/Dokumenty/Projekt_AAL/cmake-build-debug/CMakeFiles/Projekt_AAL.dir

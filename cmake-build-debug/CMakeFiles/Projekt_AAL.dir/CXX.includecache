@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/domus/Dokumenty/Projekt_AAL/main.cpp
+iostream
+-
+fstream
+-
+vector
+-
+queue
+-
+stack
+-
+
