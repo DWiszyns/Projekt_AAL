@@ -1,5 +1,6 @@
 # Projekt_AAL
 Instrukcja kompilacji:
+
 -Aby skompilować należy mieć zainstalowanego make'a lub gcc. W folderze cmake-bulid-release wpisz 
 
 >$make
