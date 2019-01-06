@@ -38,10 +38,6 @@ int main(int argc, char *argv[]) {
             if(verticeNumber==numberOfEdges) end =true;
         }
         if(end) break;
-        if(tmpSumOfEdges==maxSumOfEdges){
-            solutions.push(std::make_pair(std::make_pair(pairs.front().first,(id+2)),tmpSumOfEdges));//id+1 is the index of vertice that edge begins at, id+2 is the number it ends at
-
-        }
         if(tmpSumOfEdges>maxSumOfEdges){
             maxSumOfEdges=tmpSumOfEdges;
             while(!solutions.empty()){
@@ -52,7 +48,7 @@ int main(int argc, char *argv[]) {
         }
 
     }
-    std::cout<<"Our solutions are: "<<std::endl;
+    std::cout<<"Our solution is: "<<std::endl;
    while(!solutions.empty()){
        std::cout<<solutions.front().first.first<<" "<<solutions.front().first.second<<" "<<solutions.front().second<<std::endl;
        solutions.pop();

@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG   CMakeFiles/Projekt_AAL.dir/main.cpp.o  -o Projekt_AAL 
